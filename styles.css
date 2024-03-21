@@ -92,6 +92,7 @@ body {
 }
 .testimonial .summary {
   font-size: 1.375rem;
+  font-weight: 600;
 }
 .testimonial .testimonial_text {
   opacity: 70%;
