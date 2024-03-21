@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Testimonials-grid-section)
-- Live Site URL: [live site]()
+- Live Site URL: [live site](https://medido1.github.io/Frontend-Mentor-Testimonials-grid-section/)
 
 ## My process
 
@@ -44,6 +44,7 @@ Users should be able to:
 - CSS Grid
 - Flexbox
 - Mobile-first workflow
+- Sass preprocesser
 
 ## Author
 
