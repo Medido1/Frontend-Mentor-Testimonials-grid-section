@@ -34,7 +34,6 @@ p, h1, h2, h3, h4, h5, h6 { /* Avoid text overflows */
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
-  overflow: hidden;
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -123,7 +122,29 @@ body {
   background-color: var(--Very_dark_blackish_blue);
 }
 
-@media (min-width: 50rem){
+@media (min-width: 48rem){
+  body {
+    padding: 10rem;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20.75rem 18.75rem 19rem;
+  }
+  .testimonial:nth-of-type(1){
+    grid-column: 1/ 3;
+    grid-row: 1 ;
+  }
+  .testimonial:nth-of-type(4){
+    grid-row: 3;
+    grid-column: 1/3;
+  }
+  .testimonial:nth-of-type(5){
+    grid-column: 1/3;
+  }
+}
+
+@media (min-width: 68rem){
   body {
     padding: 10rem;
   }
@@ -139,9 +160,11 @@ body {
   .testimonial:nth-of-type(5){
     grid-column: 4;
     grid-row: 1 / 3;
+    
   }
   .testimonial:nth-of-type(4){
     grid-column: 2 / 4;
+    grid-row: 2;
   }
 }
 /*# sourceMappingURL=styles.css.map */
